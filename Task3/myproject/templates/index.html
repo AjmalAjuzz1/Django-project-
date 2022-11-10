@@ -1,0 +1,8 @@
+{% for data in django %}
+<h2> {{data.question.question_text}}</h2><br/>
+<h3> {{ data.choice_1}}<br/> </h3>
+<h3> {{ data.choice_2}}<br/></h3>
+<h3> {{ data.choice_3}}<br/></h3>
+<h3> {{ data.choice_4}}<br/></h3>
+<hr/>
+{% endfor %}
